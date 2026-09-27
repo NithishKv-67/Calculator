@@ -1,0 +1,81 @@
+body{
+    background-color: rgb(62, 61, 63);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+
+#cal{
+    font-family: Arial, sans-serif;
+    background-color: rgb(48, 46, 46);
+    max-width: 300px;
+    overflow: hidden;
+    border: 5px solid;
+    border-radius: 20px;
+    border-color: gray;
+}
+
+
+#screen{
+    width: 299px;
+    height: 90px;
+    padding: 1px;
+    color: black;
+    font-size: 2rem;
+}
+
+
+#keys{
+    justify-content: center;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: repeat(3,1fr);
+    gap: 10px;
+    padding: 25px;
+}
+
+
+button{
+    height: 60px;
+    width: 60px;
+    border: none;
+    border-radius: 50px;
+    background-color: hsl(0, 1%, 31%);
+    font-size: 1.5rem;    
+    font-weight: bold;
+    color: aliceblue;
+    cursor: pointer;
+}
+
+
+.e-operator{
+    background-color: tomato;
+    margin-bottom:35px;
+    margin-left: 15px;
+    justify-content: center;
+    align-items: center;
+    width: 270px;
+}
+
+
+.operator{
+    background-color: tomato;
+}
+
+
+.c-operator{
+    background-color: tomato;
+}
+
+
+button:hover{
+    background-color: rgb(168, 57, 37);
+}
+
+
+button:active{
+    background-color: hsl(0, 1%, 50%);
+}
+
